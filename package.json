@@ -1,24 +1,24 @@
 {
-  "name": "erron",
-  "version": "0.0.1",
-  "description": "Custom errors",
-  "main": "lib/erron.js",
+  "name": "errod",
+  "version": "0.0.2",
+  "description": "Custom errors for node",
+  "main": "lib/errod.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mitica/erron.git"
+    "url": "https://github.com/Mitica/errod.git"
   },
   "keywords": [
     "errors",
-    "erron",
+    "errod",
     "error"
   ],
   "author": "Dumitru Cantea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mitica/erron/issues"
+    "url": "https://github.com/Mitica/errod/issues"
   },
-  "homepage": "https://github.com/Mitica/erron"
+  "homepage": "https://github.com/Mitica/errod"
 }

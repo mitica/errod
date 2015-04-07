@@ -1,12 +1,12 @@
-var erron = require('../lib/erron');
+var errors = require('../lib/errod');
 
-var FatalError = erron.create({
+var FatalError = errors.create({
   name: 'FatalError',
   message: 'Fatal',
   statusCode: 500
 });
 
-var UnknownError = erron.create({
+var UnknownError = errors.create({
   parent: FatalError,
   name: 'UnknownError',
   message: 'Unknown error',
