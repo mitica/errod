@@ -1,4 +1,4 @@
-var errors = require('../lib/errod');
+var errors = require('../lib/errors');
 
 var FatalError = errors.create({
   name: 'FatalError',

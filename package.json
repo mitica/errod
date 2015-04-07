@@ -2,7 +2,7 @@
   "name": "errod",
   "version": "0.0.2",
   "description": "Custom errors for node",
-  "main": "lib/errod.js",
+  "main": "lib/errors.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
