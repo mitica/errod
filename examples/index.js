@@ -1,7 +1,9 @@
+'use strict';
+
 var assert = require('assert');
 var errors = require('../lib/errors');
 
-var BaseError = errors.create({
+errors.create({
   log: function() {
     console.log('error:', this.message);
   },
